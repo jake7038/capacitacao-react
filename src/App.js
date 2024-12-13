@@ -78,6 +78,7 @@ function App() {
   }, [res]);
 
   return (
+    <>
     <Calculator>
       <GlobalStyles/>
       <form action="" onSubmit={calculate}>
@@ -112,6 +113,7 @@ function App() {
         </section>
       </form>
     </Calculator>
+    </>
   )
 }
 
